@@ -4,5 +4,11 @@
   ],
   "npmClient": "pnpm",
   "useWorkspaces": true,
-  "version": "independent"
+  "version": "independent",
+  "changelog": {
+    "labels": {
+      "feature": "New Feature",
+      "bug": "Bug Fix"
+    }
+  }
 }
