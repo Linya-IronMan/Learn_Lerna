@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@sten-design/components": "^1.0.1"
-  }
+  },
+  "gitHead": "2cd9dc7f26b8ead29b9c7d1a35035d5d9f36a2e7"
 }
