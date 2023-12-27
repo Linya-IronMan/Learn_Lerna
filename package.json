@@ -22,7 +22,9 @@
       "path": "cz-customizable"
     },
     "husky": {
-      "commit-msg": "commitlint -e -V"
+      "hooks": {
+        "commit-msg": "commitlint -e -V"
+      }
     }
   }
 }
