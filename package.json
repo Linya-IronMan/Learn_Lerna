@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "commit": "git cz",
+    "commitlint": "commitlint -e -V",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -21,12 +22,6 @@
   "config": {
     "commitizen": {
       "path": "cz-customizable"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"git commit trigger husky pre-commit hook\"",
-      "commit-msg": "commitlint -e -V"
     }
   }
 }
