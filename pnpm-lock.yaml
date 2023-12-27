@@ -7,15 +7,17 @@ specifiers:
   cz-customizable: ^7.0.0
   husky: ^8.0.3
   lerna: ^4.0.0
+  typescript: ^5.3.3
   yorkie: ^2.0.0
 
 devDependencies:
-  '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/18.4.3
-  commitizen: registry.npmmirror.com/commitizen/4.3.0
+  '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/18.4.3_typescript@5.3.3
+  commitizen: registry.npmmirror.com/commitizen/4.3.0_typescript@5.3.3
   commitlint-config-cz: registry.npmmirror.com/commitlint-config-cz/0.13.3
   cz-customizable: registry.npmmirror.com/cz-customizable/7.0.0
   husky: registry.npmmirror.com/husky/8.0.3
   lerna: registry.npmmirror.com/lerna/4.0.0
+  typescript: registry.npmmirror.com/typescript/5.3.3
   yorkie: registry.npmmirror.com/yorkie/2.0.0
 
 packages:
@@ -802,8 +804,9 @@ packages:
       js-tokens: registry.npmmirror.com/js-tokens/4.0.0
     dev: true
 
-  registry.npmmirror.com/@commitlint/cli/18.4.3:
+  registry.npmmirror.com/@commitlint/cli/18.4.3_typescript@5.3.3:
     resolution: {integrity: sha512-zop98yfB3A6NveYAZ3P1Mb6bIXuCeWgnUfVNkH4yhIMQpQfzFwseadazOuSn0OOfTt0lWuFauehpm9GcqM5lww==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@commitlint/cli/-/cli-18.4.3.tgz}
+    id: registry.npmmirror.com/@commitlint/cli/18.4.3
     name: '@commitlint/cli'
     version: 18.4.3
     engines: {node: '>=v18'}
@@ -811,7 +814,7 @@ packages:
     dependencies:
       '@commitlint/format': registry.npmmirror.com/@commitlint/format/18.4.3
       '@commitlint/lint': registry.npmmirror.com/@commitlint/lint/18.4.3
-      '@commitlint/load': registry.npmmirror.com/@commitlint/load/18.4.3
+      '@commitlint/load': registry.npmmirror.com/@commitlint/load/18.4.3_typescript@5.3.3
       '@commitlint/read': registry.npmmirror.com/@commitlint/read/18.4.3
       '@commitlint/types': registry.npmmirror.com/@commitlint/types/18.4.3
       execa: registry.npmmirror.com/execa/5.1.1
@@ -888,8 +891,9 @@ packages:
       '@commitlint/types': registry.npmmirror.com/@commitlint/types/18.4.3
     dev: true
 
-  registry.npmmirror.com/@commitlint/load/18.4.3:
+  registry.npmmirror.com/@commitlint/load/18.4.3_typescript@5.3.3:
     resolution: {integrity: sha512-v6j2WhvRQJrcJaj5D+EyES2WKTxPpxENmNpNG3Ww8MZGik3jWRXtph0QTzia5ZJyPh2ib5aC/6BIDymkUUM58Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@commitlint/load/-/load-18.4.3.tgz}
+    id: registry.npmmirror.com/@commitlint/load/18.4.3
     name: '@commitlint/load'
     version: 18.4.3
     engines: {node: '>=v18'}
@@ -901,8 +905,8 @@ packages:
       '@commitlint/types': registry.npmmirror.com/@commitlint/types/18.4.3
       '@types/node': registry.npmmirror.com/@types/node/18.19.3
       chalk: registry.npmmirror.com/chalk/4.1.2
-      cosmiconfig: registry.npmmirror.com/cosmiconfig/8.3.6
-      cosmiconfig-typescript-loader: registry.npmmirror.com/cosmiconfig-typescript-loader/5.0.0_f114c05387d5b46e68dd14e8460cefb1
+      cosmiconfig: registry.npmmirror.com/cosmiconfig/8.3.6_typescript@5.3.3
+      cosmiconfig-typescript-loader: registry.npmmirror.com/cosmiconfig-typescript-loader/5.0.0_cd72232e315d668f872e112b4789a7c9
       lodash.isplainobject: registry.npmmirror.com/lodash.isplainobject/4.0.6
       lodash.merge: registry.npmmirror.com/lodash.merge/4.6.2
       lodash.uniq: registry.npmmirror.com/lodash.uniq/4.5.0
@@ -2036,7 +2040,31 @@ packages:
     hasBin: true
     dependencies:
       cachedir: registry.nlark.com/cachedir/2.3.0
-      cz-conventional-changelog: registry.npmmirror.com/cz-conventional-changelog/3.3.0
+      cz-conventional-changelog: registry.npmmirror.com/cz-conventional-changelog/3.3.0_typescript@5.3.3
+      dedent: registry.npmmirror.com/dedent/0.7.0
+      detect-indent: registry.npmmirror.com/detect-indent/6.1.0
+      find-node-modules: registry.npmmirror.com/find-node-modules/2.1.3
+      find-root: registry.npmmirror.com/find-root/1.1.0
+      fs-extra: registry.npmmirror.com/fs-extra/9.1.0
+      glob: registry.npmmirror.com/glob/7.2.3
+      inquirer: registry.npmmirror.com/inquirer/8.2.5
+      is-utf8: registry.npmmirror.com/is-utf8/0.2.1
+      lodash: registry.npmmirror.com/lodash/4.17.21
+      minimist: registry.npmmirror.com/minimist/1.2.7
+      strip-bom: registry.npmmirror.com/strip-bom/4.0.0
+      strip-json-comments: registry.npmmirror.com/strip-json-comments/3.1.1
+    dev: true
+
+  registry.npmmirror.com/commitizen/4.3.0_typescript@5.3.3:
+    resolution: {integrity: sha512-H0iNtClNEhT0fotHvGV3E9tDejDeS04sN1veIebsKYGMuGscFaswRoYJKmT3eW85eIJAs0F28bG2+a/9wCOfPw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/commitizen/-/commitizen-4.3.0.tgz}
+    id: registry.npmmirror.com/commitizen/4.3.0
+    name: commitizen
+    version: 4.3.0
+    engines: {node: '>= 12'}
+    hasBin: true
+    dependencies:
+      cachedir: registry.nlark.com/cachedir/2.3.0
+      cz-conventional-changelog: registry.npmmirror.com/cz-conventional-changelog/3.3.0_typescript@5.3.3
       dedent: registry.npmmirror.com/dedent/0.7.0
       detect-indent: registry.npmmirror.com/detect-indent/6.1.0
       find-node-modules: registry.npmmirror.com/find-node-modules/2.1.3
@@ -2237,7 +2265,7 @@ packages:
     version: 1.0.3
     dev: true
 
-  registry.npmmirror.com/cosmiconfig-typescript-loader/5.0.0_f114c05387d5b46e68dd14e8460cefb1:
+  registry.npmmirror.com/cosmiconfig-typescript-loader/5.0.0_cd72232e315d668f872e112b4789a7c9:
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-5.0.0.tgz}
     id: registry.npmmirror.com/cosmiconfig-typescript-loader/5.0.0
     name: cosmiconfig-typescript-loader
@@ -2250,8 +2278,9 @@ packages:
       typescript: '>=4'
     dependencies:
       '@types/node': registry.npmmirror.com/@types/node/18.19.3
-      cosmiconfig: registry.npmmirror.com/cosmiconfig/8.3.6
+      cosmiconfig: registry.npmmirror.com/cosmiconfig/8.3.6_typescript@5.3.3
       jiti: registry.npmmirror.com/jiti/1.21.0
+      typescript: registry.npmmirror.com/typescript/5.3.3
     dev: true
 
   registry.npmmirror.com/cosmiconfig/7.1.0:
@@ -2267,8 +2296,9 @@ packages:
       yaml: registry.npmmirror.com/yaml/1.10.2
     dev: true
 
-  registry.npmmirror.com/cosmiconfig/8.3.6:
+  registry.npmmirror.com/cosmiconfig/8.3.6_typescript@5.3.3:
     resolution: {integrity: sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cosmiconfig/-/cosmiconfig-8.3.6.tgz}
+    id: registry.npmmirror.com/cosmiconfig/8.3.6
     name: cosmiconfig
     version: 8.3.6
     engines: {node: '>=14'}
@@ -2283,6 +2313,7 @@ packages:
       js-yaml: registry.npmmirror.com/js-yaml/4.1.0
       parse-json: registry.npmmirror.com/parse-json/5.2.0
       path-type: registry.npmmirror.com/path-type/4.0.0
+      typescript: registry.npmmirror.com/typescript/5.3.3
     dev: true
 
   registry.npmmirror.com/cross-spawn/5.1.0:
@@ -2306,8 +2337,9 @@ packages:
       which: registry.npmmirror.com/which/2.0.2
     dev: true
 
-  registry.npmmirror.com/cz-conventional-changelog/3.3.0:
+  registry.npmmirror.com/cz-conventional-changelog/3.3.0_typescript@5.3.3:
     resolution: {integrity: sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cz-conventional-changelog/-/cz-conventional-changelog-3.3.0.tgz}
+    id: registry.npmmirror.com/cz-conventional-changelog/3.3.0
     name: cz-conventional-changelog
     version: 3.3.0
     engines: {node: '>= 10'}
@@ -2319,7 +2351,7 @@ packages:
       longest: registry.npmmirror.com/longest/2.0.1
       word-wrap: registry.npmmirror.com/word-wrap/1.2.5
     optionalDependencies:
-      '@commitlint/load': registry.npmmirror.com/@commitlint/load/18.4.3
+      '@commitlint/load': registry.npmmirror.com/@commitlint/load/18.4.3_typescript@5.3.3
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -6660,6 +6692,14 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typedarray/-/typedarray-0.0.6.tgz}
     name: typedarray
     version: 0.0.6
+    dev: true
+
+  registry.npmmirror.com/typescript/5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.3.3.tgz}
+    name: typescript
+    version: 5.3.3
+    engines: {node: '>=14.17'}
+    hasBin: true
     dev: true
 
   registry.npmmirror.com/uglify-js/3.17.4:

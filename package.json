@@ -11,6 +11,7 @@
     "cz-customizable": "^7.0.0",
     "husky": "^8.0.3",
     "lerna": "^4.0.0",
+    "typescript": "^5.3.3",
     "yorkie": "^2.0.0"
   },
   "workspaces": [

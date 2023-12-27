@@ -5,5 +5,4 @@ let length = 999;
 export default {
     name,
     age,
-    length,
 };
