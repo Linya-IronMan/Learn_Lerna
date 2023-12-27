@@ -1,10 +1,20 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "commit": "git cz"
+  },
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-customizable": "^7.0.0",
     "lerna": "^4.0.0"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  }
 }
