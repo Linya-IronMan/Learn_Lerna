@@ -7,8 +7,9 @@ module.exports = {
         },
     },
     rules: {
-        'type-empty': [2, 'never'],
-        'subject-empty': [2, 'never'],
+        'type-empty': [0, 'always'],
+        'subject-empty': [0, 'always'],
+        'scope-empty': [0, 'always'],
     },
 };
 // Hello World Test

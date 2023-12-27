@@ -17,10 +17,10 @@ module.exports = {
     ],
 
     scopes: [
-        { name: '组件' },
-        { name: '样式' },
-        { name: '文档更改' },
-        { name: '其它变更' },
+        // { value: '组件', name: '组件' },
+        // { value: '样式', name: '样式' },
+        // { value: '文档更改', name: '文档更改' },
+        // { value: '其它变更', name: '其它变更' },
     ],
 
     allowTicketNumber: false,

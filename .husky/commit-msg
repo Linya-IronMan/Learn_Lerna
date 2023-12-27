@@ -3,3 +3,5 @@
 
 # echo "There is commit-msg hooks: dirname $(dirname -- "$0")"
 
+npm run commitlint
+
