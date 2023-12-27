@@ -20,11 +20,11 @@
   "config": {
     "commitizen": {
       "path": "cz-customizable"
-    },
-    "husky": {
-      "hooks": {
-        "commit-msg": "commitlint -e -V"
-      }
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e -V"
     }
   }
 }
