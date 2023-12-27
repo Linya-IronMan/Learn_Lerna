@@ -9,6 +9,7 @@
     "labels": {
       "feature": "New Feature",
       "bug": "Bug Fix"
-    }
+    },
+    "repo": "Linya-IronMan/Learn_Lerna"
   }
 }
