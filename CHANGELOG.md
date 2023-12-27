@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.4...v1.2.0) (2023-12-27)
+
+
+### ✨ Features | 新功能
+
+* **组件:** themes add length ([d3d18a9](https://github.com/Linya-IronMan/Learn_Lerna/commit/d3d18a9454550cd7ea132ecd451766ef3cae88aa))
+
 ### [1.1.4](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.3...v1.1.4) (2023-12-27)
 
 ### [1.1.3](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.2...v1.1.3) (2023-12-27)
