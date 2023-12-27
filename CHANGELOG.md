@@ -4,13 +4,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.4](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.3...v1.1.4) (2023-12-27)
 
-## 1.1.0 (2023-12-27)
-
 ### [1.1.3](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.2...v1.1.3) (2023-12-27)
 
 ### [1.1.2](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.1...v1.1.2) (2023-12-27)
 
 ### [1.1.1](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.0...v1.1.1) (2023-12-27)
+
+## 1.1.0 (2023-12-27)
+
 
 ### 🐛 Bug Fixes | Bug 修复
 
