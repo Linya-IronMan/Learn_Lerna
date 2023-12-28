@@ -6,7 +6,8 @@
     "commit": "git cz",
     "commitlint": "commitlint -e -V",
     "prepare": "husky install",
-    "release": "standard-version"
+    "release": "standard-version",
+    "start:components": "lerna run start --scope=@sten-design/components"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
@@ -26,5 +27,8 @@
     "commitizen": {
       "path": "cz-customizable"
     }
+  },
+  "dependencies": {
+    "stencil": "^0.0.5"
   }
 }
