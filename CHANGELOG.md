@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.2.0...v1.3.0) (2023-12-28)
+
+
+### ✨ Features | 新功能
+
+* **组件:** sten-component 添加并测试运行 ([f28d8ef](https://github.com/Linya-IronMan/Learn_Lerna/commit/f28d8efd4718ed6f1f57cac2a44f84f9bc85d769))
+
 ## [1.2.0](https://github.com/Linya-IronMan/Learn_Lerna/compare/v1.1.4...v1.2.0) (2023-12-27)
 
 
