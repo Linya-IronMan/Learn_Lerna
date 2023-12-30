@@ -7,7 +7,8 @@
     "commitlint": "commitlint -e -V",
     "prepare": "husky install",
     "release": "standard-version",
-    "start:components": "lerna run start --scope=@sten-design/components"
+    "start:components": "lerna run start --scope=@sten-design/components",
+    "generate:components": "lerna run generate --scope=@sten-design/components"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
