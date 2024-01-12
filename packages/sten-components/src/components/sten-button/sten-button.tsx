@@ -9,6 +9,7 @@ export class StenButton {
   @Element() el: HTMLElement;
   @Prop() name: string;
   @Prop() msg: { name: string; age: number; sex: 'man' | 'woman' };
+
   @Prop() members: string[] = [];
 
   @Event() buttonClick: EventEmitter;
@@ -26,12 +27,15 @@ export class StenButton {
     this.buttonClickHandler();
   }
 
+  @Watch('members.length')
+  membersChange() {
+    console.log('members change');
+  }
+
   render() {
     return (
       <Host>
         <button class="sten-button" onClick={() => this.clickHandler()}>
-          {/* {this.msg} <br />
-          {this.name} <br /> */}
           name: {this.msg.name} <br />
           age: {this.msg.age} <br />
           sex: {this.msg.sex} <br />
